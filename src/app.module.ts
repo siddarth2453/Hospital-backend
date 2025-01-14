@@ -9,7 +9,7 @@ import { TasksModule } from './tasks/tasks.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/hospital_management'),
+    MongooseModule.forRoot('mongodb://127.0.0.1:27017/hospital_management'),
     AuthModule,
     PatientsModule,
     DietChartsModule,
